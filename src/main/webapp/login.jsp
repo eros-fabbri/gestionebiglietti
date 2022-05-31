@@ -23,9 +23,9 @@
     </div>
 
     <!-- Login Form -->
-    <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+    <form action="LoginServlet" method="post">
+      <input type="text" id="login" class="fadeIn second" name="inputUsername" placeholder="login">
+      <input type="text" id="password" class="fadeIn third" name="inputPassword" placeholder="password">
       <input type="submit" class="fadeIn fourth" value="Log In">
     </form>
 
